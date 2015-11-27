@@ -28,7 +28,7 @@ def get_total_cost(shoplist):
         shoplist(dict): key of shoplist is item found in FRUIT and value
             is an integer indicating no. of units to be purchased
     Return:
-        returns the total cost by adding up values of resultant dictionary
+        returns the total cost by adding up values
     Examples:
         >>> shoplist = {'Beet': 1, 'Apple': 2.08, 'Lime': 12, 'Peach': 24}
         >>> get_total_cost(shoplist)
