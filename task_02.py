@@ -17,7 +17,6 @@ def get_cost_per_item(shoplist):
     """
 
     price_dict = {item: FRUIT[item] * shoplist[item]
-
                   for item in shoplist.iterkeys() if item in FRUIT}
     return price_dict
 
