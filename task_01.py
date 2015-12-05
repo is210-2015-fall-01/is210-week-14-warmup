@@ -4,6 +4,7 @@
 
 import pet
 
+
 class Dog(pet.Pet):
     """Class docstring"""
 
